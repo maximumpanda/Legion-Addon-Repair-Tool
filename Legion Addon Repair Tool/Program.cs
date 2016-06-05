@@ -30,7 +30,7 @@ namespace Legion_Addon_Repair_Tool
                 {
                     if (file.Extension.Contains("tga"))
                     {
-                        File.Move(file.FullName, file.FullName.Replace(".tga", ""));
+                        File.Move(file.FullName, file.FullName.Replace(".tga", ".blp"));
                         Count++;
                         Console.Write(".");
                     }
